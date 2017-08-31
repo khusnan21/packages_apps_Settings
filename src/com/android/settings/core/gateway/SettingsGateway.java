@@ -139,6 +139,8 @@ import com.android.settings.wifi.p2p.WifiP2pSettings;
 import com.android.settings.wifi.tether.WifiTetherSettings;
 import com.android.settings.custom.ambient.history.AmbientPlayHistory;
 
+import com.kcuf.settings.KCUFSettings;
+
 public class SettingsGateway {
 
     /**
@@ -265,7 +267,8 @@ public class SettingsGateway {
             ToggleBackupSettingFragment.class.getName(),
             PreviouslyConnectedDeviceDashboardFragment.class.getName(),
             AmbientPlayHistory.class.getName(),
-    };
+            KCUFSettings.class.getName()
+w    };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
             // Home page
@@ -303,5 +306,6 @@ public class SettingsGateway {
             Settings.DeviceInfoSettingsActivity.class.getName(),
             Settings.EnterprisePrivacySettingsActivity.class.getName(),
             Settings.MyDeviceInfoActivity.class.getName(),
+            Settings.KCUFSettingsActivity.class.getName(),
     };
 }
