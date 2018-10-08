@@ -12,9 +12,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <!-- Toolbar -->
+    <string name="settings_head_title">Zirconium</string>
+
     <!-- Zirconium Settings -->
-    <string name="zirconium_settings_title">Zirconium Settings</string>
-    <string name="zirconium_settings_summary">Zirconium mine</string>
+    <string name="zirconium_settings_title">Zirconium Hub</string>
+    <string name="zirconium_settings_summary">Get zirconised</string>
     
    <!-- SELinux Status -->
     <string name="selinux_status">SELinux status</string>
